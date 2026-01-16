@@ -130,4 +130,20 @@ h1, h2 {
 body {
   padding-top: 70px; /* Space for the fixed navbar */
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+}
+
+table th {
+  background-color: #a5d6a7; /* light green header */
+  color: #2e7d32; /* dark green text */
+}
 
