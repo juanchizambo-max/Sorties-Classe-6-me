@@ -146,4 +146,10 @@ table th {
   background-color: #a5d6a7; /* light green header */
   color: #2e7d32; /* dark green text */
 }
+.gallery img {
+  width: 250px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+}
 
