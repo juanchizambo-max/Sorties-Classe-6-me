@@ -10,3 +10,11 @@ openBtn.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   overlay.style.display = "none";
 });
+document.querySelectorAll('nav a').forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href'))
+            .scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
