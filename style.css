@@ -40,7 +40,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #2e7d32; /* dark green */
+  background-color: #8dc63f; /* dark green */
   padding: 15px 30px;
 }
 
@@ -147,6 +147,12 @@ table th {
   margin: 10px;
   border-radius: 8px;
   border: 2px solid #ccc;
+}
+:root {
+  --green-light: #8dc63f;
+  --green-dark: #2e7d32;
+  --text-dark: #333;
+  --bg-light: #ffffff;
 }
 
 
