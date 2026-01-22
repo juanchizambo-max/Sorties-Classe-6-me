@@ -163,5 +163,12 @@ table th {
   --text-dark: #333;
   --bg-light: #ffffff;
 }
+@media (max-width: 900px) {
+  .nav-link a {
+    gap: 10px;
+  }
 
-
+  .navlinks a {
+    font-size: 14px;
+  }
+}
