@@ -82,7 +82,7 @@ body {
   font-size: 16px;
   padding: 6px 10px;
   border-radius: 5px;
-  white-space: norwrap;
+  white-space: nowrap;
 }
 
 .nav-links a:hover {
@@ -156,7 +156,7 @@ table th {
   background-color: #a5d6a7; /* light green header */
   color: #2e7d32; /* dark green text */
 }
-.gallery img {
+.gallerie {
   width: 250px;
   margin: 10px;
   border-radius: 8px;
