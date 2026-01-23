@@ -169,11 +169,11 @@ table th {
   --bg-light: #ffffff;
 }
 @media (max-width: 900px) {
-  .nav-link a {
+  .nav-links {
     gap: 10px;
   }
 
-  .navlinks a {
+  .nav-links a {
     font-size: 14px;
   }
 }
