@@ -10,11 +10,21 @@ openBtn.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   overlay.style.display = "none";
 });
-document.querySelectorAll('nav a[href^="#"]').forEach(link => {
-  link.addEventListener('click', function(e) {
-    e.preventDefault();
-    document.querySelector(this.getAttribute('href'))
-            .scrollIntoView({ behavior: 'smooth' });
+document.querySelectorAll('nav a').forEach(link => {
+  link.addEventListener('click', function (e) {
+    const target = this.getAttribute('href');
+
+    // Only apply smooth scroll for IDs (like #galerie-photos)
+    if (target.startsWith('#')) {
+      e.preventDefault();
+
+      const section = document.querySelector(target);
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    // else: normal link (index.html, apropos.html) → browser handles it
   });
 });
+
 
