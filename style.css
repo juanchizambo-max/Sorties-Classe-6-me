@@ -177,3 +177,11 @@ table th {
     font-size: 14px;
   }
 }
+.galerie img {
+  width: 200px;      /* taille des photos */
+  height: auto;      /* garde les proportions */
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
