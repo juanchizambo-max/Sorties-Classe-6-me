@@ -23,6 +23,18 @@ document.querySelectorAll('nav a').forEach(link => {
         section.scrollIntoView({ behavior: 'smooth' });
       }
     }
+    function openLightbox(img) {
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+  lightboxImg.src = img.src;
+  lightbox.style.display = "flex";
+}
+
+function closeLightbox() {
+  const lightbox = document.getElementById("lightbox");
+  lightbox.style.display = "none";
+}
+
     // else: normal link (index.html, apropos.html) → browser handles it
   });
 });
