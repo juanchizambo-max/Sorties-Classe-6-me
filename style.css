@@ -199,5 +199,20 @@ table th {
   max-height: 90vh;
   border-radius: 8px;
 }
+.btn-sorties {
+  display: inline-block;
+  background-color: #2e7d32;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.btn-sorties:hover {
+  background-color: #1b5e20;
+}
+
 
 
