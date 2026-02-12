@@ -134,7 +134,7 @@ body {
 .navbar {
   position: fixed;
   top: 0;
-  width: 90%;
+  width: 99%;
   z-index: 999;
 }
 body {
