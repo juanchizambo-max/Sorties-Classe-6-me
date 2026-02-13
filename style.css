@@ -1,3 +1,11 @@
+.Video{
+  width: 820px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
 #galerie-photos {
   scroll-margin-top: 90px; /* hauteur de la navbar */
 }
