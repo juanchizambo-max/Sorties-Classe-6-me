@@ -45,3 +45,5 @@ function closeLightbox() {
 
   lightbox.style.display = "none";
 }
+sed -i 's|<script src="script.js"></script>|<script src="access-gate.js"></script>\n  <script src="script.js"></script>|' index.html
+}
