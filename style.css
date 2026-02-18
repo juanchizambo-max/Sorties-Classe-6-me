@@ -1,3 +1,10 @@
+.galerie video {
+  width: 200px;
+  margin: 10px;
+  border-radius: 8px;
+  background: #000; /* évite le “blanc” */
+}
+
 .videos-gallery{
   width: 200px;
   height: auto;
