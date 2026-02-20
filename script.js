@@ -44,3 +44,4 @@ function closeLightbox() {
   if (!lightbox) return;
 
   lightbox.style.display = "none";
+}
